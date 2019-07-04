@@ -33,11 +33,11 @@ public class Euler6MethodTest {
     @Test
     public void euler6_6() {
         //given
-        int number = 3;
+        int number = 6;
         //when
         int result = em.squareDifference(number);
         //then
-        Assertions.assertThat(result).isEqualTo(22);
+        Assertions.assertThat(result).isEqualTo(350);
     }
     @Test
     public void euler6_10() {
